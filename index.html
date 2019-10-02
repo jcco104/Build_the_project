@@ -25,15 +25,16 @@
     <h1 id="title">Survey about Knowledge</h1>
     <p id="description">This survey let us know about the languages what you know </p>
     <form id="survey-form" method="POST">
-    <label  for="name">Name:</label>
+    <label id="name-label" for="name">Name:</label>
     <input id="name" type="text">
     <br>
-    <label for="email">Email:</label>
+    <label id="email-label" for="email">Email:</label>
     <input id="email" type="email" required>
     <br>
-    <label for="number">Age:</label>
-    <input id="number" type="number">
-    
+    <label id="number-label" for="number">Age:</label>
+    <input id="number" type="number" min="0" max="99">
+    <br>
+
     </form>
     <script  src="js/index.js"></script>
   </body>

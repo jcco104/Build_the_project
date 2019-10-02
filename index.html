@@ -34,12 +34,24 @@
     <label id="number-label" for="number">Age:</label>
     <input id="number" type="number" min="0" max="99" placeholder="Insert your age">
     <br>
-    <label for="dropdown">What programming languages do you know?</label>
+    <label for="dropdown">What is your favorite programming languaje</label>
     <select id="dropdown" form="survey-form">
-      <option value="Lua">Lua</option>
+      <option value="lua">Lua</option>
       <option value="c#">C#</option>
+      <option value="java">Java</option>
+      <option value="ruby">Ruby</option>
     </select>
-
+    <br>
+    <label>What programming language do you want to learn now?</label><br>
+    <input type="radio" name="languajes" value="lua">Lua<br>
+    <input type="radio" name="languajes" value="c#">C#<br>
+    <input type="radio" name="languajes" value="java">Java<br>
+    <input type="radio" name="languajes" value="ruby">Ruby<br>
+    <label>What programming languages do you know?</label><br>
+    <input type="checkbox" value="lua">Lua<br>
+    <input type="checkbox" value="c#">C#<br>
+    <input type="checkbox" value="java">Java<br>
+    <input type="checkbox" value="Ruby">ruby<br>
     </form>
     <script  src="js/index.js"></script>
   </body>

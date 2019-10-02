@@ -23,7 +23,7 @@
     -->
     <p>"Hello World, we are software developers!"</p>
     <h1 id="title">Survey about Knowledge</h1>
-    <p id="description">This survey let us know about the languages what you know </p>
+    <p id="description">This is a survey to let us know about the programming languages that you know </p>
     <form id="survey-form" method="POST">
     <label id="name-label" for="name">Name:</label>
     <input id="name" type="text" placeholder="Insert name">
@@ -34,7 +34,7 @@
     <label id="number-label" for="number">Age:</label>
     <input id="number" type="number" min="0" max="99" placeholder="Insert your age">
     <br>
-    <label for="dropdown">What is your favorite programming languaje</label>
+    <label for="dropdown">What is your favorite programming language</label>
     <select id="dropdown" form="survey-form">
       <option value="lua">Lua</option>
       <option value="c#">C#</option>
@@ -52,6 +52,9 @@
     <input type="checkbox" value="c#">C#<br>
     <input type="checkbox" value="java">Java<br>
     <input type="checkbox" value="Ruby">ruby<br>
+    <label>Comments:</label>
+    <textarea rows="4" cols="50" placeholder="additional comments"></textarea>
+    <button id="submit" type="submit">Submit</button><br>
     </form>
     <script  src="js/index.js"></script>
   </body>

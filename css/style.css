@@ -1,0 +1,16 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rebeccapurple;
+}
+
+#description{
+    font-family:Arial, Helvetica, sans-serif;
+    color:grey;
+}
+label{
+    color:blue;
+}
+
+h1{
+    color:blueviolet;
+}

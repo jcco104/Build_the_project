@@ -26,14 +26,19 @@
     <p id="description">This survey let us know about the languages what you know </p>
     <form id="survey-form" method="POST">
     <label id="name-label" for="name">Name:</label>
-    <input id="name" type="text">
+    <input id="name" type="text" placeholder="Insert name">
     <br>
     <label id="email-label" for="email">Email:</label>
-    <input id="email" type="email" required>
+    <input id="email" type="email" required placeholder="insert a valid email address">
     <br>
     <label id="number-label" for="number">Age:</label>
-    <input id="number" type="number" min="0" max="99">
+    <input id="number" type="number" min="0" max="99" placeholder="Insert your age">
     <br>
+    <label for="dropdown">What programming languages do you know?</label>
+    <select id="dropdown" form="survey-form">
+      <option value="Lua">Lua</option>
+      <option value="c#">C#</option>
+    </select>
 
     </form>
     <script  src="js/index.js"></script>
